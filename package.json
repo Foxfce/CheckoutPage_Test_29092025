@@ -1,6 +1,7 @@
 {
   "name": "Checkout-page",
   "private": true,
+  "homepage": "https://foxfce.github.io/CheckoutPage_Test_29092025",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
