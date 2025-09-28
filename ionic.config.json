@@ -1,0 +1,7 @@
+{
+  "name": "Checkout-page",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
