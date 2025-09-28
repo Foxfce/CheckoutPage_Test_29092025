@@ -28,10 +28,17 @@ import '@ionic/react/css/display.css';
 
 /* import '@ionic/react/css/palettes/dark.always.css'; */
 /* import '@ionic/react/css/palettes/dark.class.css'; */
-import '@ionic/react/css/palettes/dark.system.css';
+// import '@ionic/react/css/palettes/dark.system.css';
 
 /* Theme variables */
 import './theme/variables.css';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import ModalCart from './components/ModalCart';
 
 setupIonicReact();
 
@@ -41,6 +48,9 @@ const App: React.FC = () => (
       <IonRouterOutlet>
         <Route exact path="/home">
           <Home />
+        </Route>
+        <Route exact path="/modalcart">
+          <ModalCart />
         </Route>
         <Route exact path="/">
           <Redirect to="/home" />
